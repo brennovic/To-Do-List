@@ -8,30 +8,36 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h2>To-Do List</h2>
-    <div class="input-container">
-      <input
-        type="text"
-        id="taskInput"
-        placeholder="Adicionar nova tarefa..."
-      />
-      <select id="category">
-        <option value="Trabalho">Trabalho</option>
-        <option value="Estudos">Estudos</option>
-        <option value="Pessoal">Pessoal</option>
-        <option value="Outro">Outro</option>
-      </select>
-      <button id="addTaskBtn">Adicionar</button>
+    <div class="container">
+      <h2>To-Do List</h2>
+      <div class="input-container" >
+        <input
+          type="text"
+          id="taskInput"
+          placeholder="Adicionar nova tarefa..."
+          
+        />
+        <select id="category" >
+          <option value="Trabalho">Trabalho</option>
+          <option value="Estudos">Estudos</option>
+          <option value="Pessoal">Pessoal</option>
+          <option value="Outro">Outro</option>
+        </select>
+        <button id="addTaskBtn" class="button-color">Adicionar </button>
+      </div>
     </div>
-
-    <h3>Filtrar por Categoria:</h3>
-    <select id="filter">
-      <option value="Todos">Todos</option>
-      <option value="Trabalho">Trabalho</option>
-      <option value="Estudos">Estudos</option>
-      <option value="Pessoal">Pessoal</option>
-      <option value="Outro">Outro</option>
-    </select>
+    
+<div class="container">
+  <h3>Filtrar por Categoria:</h3>
+  <select id="filter" >
+    <option value="Todos">Todos</option>
+    <option value="Trabalho">Trabalho</option>
+    <option value="Estudos">Estudos</option>
+    <option value="Pessoal">Pessoal</option>
+    <option value="Outro">Outro</option>
+  </select>
+</div>
+   
 
     <h3>Minhas Tarefas:</h3>
     <ul id="taskList"></ul>

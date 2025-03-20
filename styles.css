@@ -1,8 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    max-width: 400px;
-    margin: 0 auto;
+    
 }
 h2, h3 {
     text-align: center;
@@ -36,14 +35,26 @@ h2, h3 {
     color: white;
 }
 .task button {
-    background: red;
+    background: rgb(245, 106, 106);
+    border-radius: 10px;
     color: white;
     border: none;
     cursor: pointer;
 }
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.button-color{
+    background-color: #64acf8;
+    border-radius: 10px;
+    color: aliceblue;
+    border-color: transparent;
+}
+
 
 /* Categorias de cores */
-.Trabalho { background-color: #007bff; }
-.Estudos { background-color: #28a745; }
-.Pessoal { background-color: #ffc107; color: black; }
+.Trabalho { background-color: #4c99eb;}
+.Estudos { background-color: #71ff92; }
+.Pessoal { background-color: #f8d775; color: black; }
 .Outro { background-color: #6c757d; }
