@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+h2, h3 {
+    text-align: center;
+}
+.input-container {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+#taskInput {
+    flex: 1;
+    padding: 8px;
+}
+#addTaskBtn {
+    padding: 8px;
+    cursor: pointer;
+}
+#filter {
+    margin: 10px 0;
+    width: 100%;
+    padding: 8px;
+}
+/* Estilo das tarefas */
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: white;
+}
+.task button {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Categorias de cores */
+.Trabalho { background-color: #007bff; }
+.Estudos { background-color: #28a745; }
+.Pessoal { background-color: #ffc107; color: black; }
+.Outro { background-color: #6c757d; }

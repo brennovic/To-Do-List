@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To-Do List com Filtros</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2>To-Do List</h2>
+    <div class="input-container">
+      <input
+        type="text"
+        id="taskInput"
+        placeholder="Adicionar nova tarefa..."
+      />
+      <select id="category">
+        <option value="Trabalho">Trabalho</option>
+        <option value="Estudos">Estudos</option>
+        <option value="Pessoal">Pessoal</option>
+        <option value="Outro">Outro</option>
+      </select>
+      <button id="addTaskBtn">Adicionar</button>
+    </div>
+
+    <h3>Filtrar por Categoria:</h3>
+    <select id="filter">
+      <option value="Todos">Todos</option>
+      <option value="Trabalho">Trabalho</option>
+      <option value="Estudos">Estudos</option>
+      <option value="Pessoal">Pessoal</option>
+      <option value="Outro">Outro</option>
+    </select>
+
+    <h3>Minhas Tarefas:</h3>
+    <ul id="taskList"></ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
